@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#fff;
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.top_dir{
+    padding-top: 20px;
+}
+
+#text{
+    color:#fff;
+    font-size: 20px;
+    /* padding-top:5px */
+
+}
+
+
+.main-Nav li{
+    
+    margin-left: 40px;
+    margin-bottom: -5px;
+    margin-top: -10px;   
+}
+
+  nav li a {
+      color: #FE5F1E !important;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  nav li a:hover {
+    color: #b23301 !important;
+  }
+  nav li a:hover:hover {
+    color: #FE5F1E;
+  }
+
+.hero-section{
+    width: 1180px;
+    padding-top: 5px;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.hero-line{
+    color:#F8F8F8;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-bottom : 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}    
+
+.btn{
+    display: inline-block;
+    padding: 10px, 50px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.3s, color 0.3s border 0.3s;
+}
+
+
+.btn-full{
+    background-color:#FE5F1E;
+    color:#F8F8F8;
+    padding: 10px;
+    border: 1px solid rgb(216, 213, 210);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.btn-full:hover{
+    background-color: #F8F8F8;
+    color:#FE5F1E;
+    border: 1px solid #b23301;
+}
+.anim-head{
+    animation: chiran 2s infinite;
+}
+
+@keyframes chiran{
+    0%{color: #FE5F1E;}
+    25%{color:#F8F8F8;}
+    75%{color:rgb(245, 8, 253);}
+    100%{color: #FE5F1E;}
+
+
+}
