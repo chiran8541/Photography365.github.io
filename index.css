@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/hero4.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("C:\Users\BEST BUY\Documents\GitHub\Photography365.github.io\Images\hero4.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
