@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(Images/hero4.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("Images/hero4.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -117,7 +117,7 @@ nav li a:hover:hover {
 
 .Gallery{
 
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Images/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("Images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:#FE5F1E;
