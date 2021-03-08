@@ -5,7 +5,7 @@
 }
 
 body{
-    color:#fff;
+    color:crimson;
     font-size: 20px;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
@@ -23,57 +23,64 @@ header{
     padding-top: 20px;
 }
 
-#text{
-    color:#fff;
-    font-size: 20px;
-    /* padding-top:5px */
-
-}
-
-
 .main-Nav li{
     
     margin-left: 40px;
-    margin-bottom: -5px;
-    margin-top: -10px;   
+    /* margin-bottom: -5px;
+    margin-top: -10px;    */
 }
 
-  nav li a {
-      color: #FE5F1E !important;
-      font-size: 20px;
-      font-weight: bold;
-  }
-  
-  nav li a:hover {
-    color: #b23301 !important;
-  }
-  nav li a:hover:hover {
-    color: #FE5F1E;
-  }
+nav li a {
+    color: #FE5F1E !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
-.hero-section{
-    width: 1180px;
-    padding-top: 5px;
-    position:absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-} 
+nav li a:hover {
+  color: #b23301 !important;
+}
+nav li a:hover:hover {
+  color: #FE5F1E;
+}
+
+
+.logo{
+    min-width: 100%;
+    max-height: 280px ;
+}
+
+
 
 .hero-line{
     color:#F8F8F8;
     font-size: 30px;
     word-spacing: 5px;
-    margin-bottom : 20px;
+    /* margin-bottom : 20px; */
     text-transform: uppercase;
     font-weight: bold;
 
-}    
+} 
+
+.anim-head{
+    animation: chiran 2s infinite;
+}
+
+@keyframes chiran{
+    0%{color: #FE5F1E;}
+    25%{color:#F8F8F8;}
+    75%{color:rgb(245, 8, 253);}
+    100%{color: #FE5F1E;}
+
+
+}
+
 
 .btn{
     display: inline-block;
     padding: 10px, 50px;
     font-weight: bold;
+    
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.3s, color 0.3s border 0.3s;
@@ -94,15 +101,28 @@ header{
     color:#FE5F1E;
     border: 1px solid #b23301;
 }
-.anim-head{
-    animation: chiran 2s infinite;
+
+
+
+/* -------main_header------- */
+
+.main_header{
+    margin: 0;
+    /* background-color: #131212; */
+    color: #3f1403;
+
+    
 }
 
-@keyframes chiran{
-    0%{color: #FE5F1E;}
-    25%{color:#F8F8F8;}
-    75%{color:rgb(245, 8, 253);}
-    100%{color: #FE5F1E;}
+
+.Gallery{
+
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#FE5F1E;
+    padding-top: 5px;
+    text-transform: uppercase;
 
 
 }
