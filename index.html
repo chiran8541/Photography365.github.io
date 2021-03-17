@@ -61,14 +61,14 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#section1">Gallery</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
                       </li>
                       
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        <a class="nav-link disabled" href="#section2" tabindex="-1" aria-disabled="true">Contact</a>
                       </li>
                     </ul>
                     
@@ -114,7 +114,7 @@
             </div>
         </section>
 
-        <section class=" container-fluid Gallery  mt-3"> 
+        <section id="section1" class=" container-fluid Gallery  mt-3"> 
           <div class="text-center">
               <h1 class="display-4 anim-head">Gallery</h2>
               <hr class=" w-25 mx-auto">
@@ -180,29 +180,31 @@
           </section> 
 
 
-          <section class=" main-heading my-5 pt-5"> 
+           <section  id="Section2" class=" main-heading my-5 pt-5"> 
             <div class="text-center">
                 <h1 class="display-4 anim-head">Contact Us</h1>
                 <hr class=" w-25 mx-auto" />
             </div>
                 <div class="container">
                   <div class="row">
-                    <div class="col-xxl-8 col-10 col-md-8">
+                    <div class="col-xxl-8 col-10 col-md-8 mx-auto">
                       <form>
+                        
+                        <div class="mb-3">
+                          <label for="Name" class="form-label">Name</label>
+                          <input type="name" class="form-control" id="exampleInputPassword1">
+                        </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        
+                        <button type="submit" class="btn btn-full animate__animated animate__bounce">Submit</button>
                       </form>
 
                     </div>
