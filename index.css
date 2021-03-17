@@ -117,7 +117,8 @@ nav li a:hover:hover {
 
 .Gallery{
 
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("Images/hero.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("Images/hero.jpg"); */
+    background-color: #F8F8F8;
     background-repeat: no-repeat;
     background-size: cover;
     color:#FE5F1E;
